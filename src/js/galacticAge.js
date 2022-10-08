@@ -14,4 +14,8 @@ export default class Earth {
       return 'choose a biological gender';
     } return age;
   }
+
+  lifeExpectancy(planetAge) {
+    return this.ageExpect / planetAge
+  }
 }
