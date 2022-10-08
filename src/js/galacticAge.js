@@ -5,9 +5,13 @@ export default class Earth {
     this.ageExpect = this.lifeExptCalc();
   }
 
-  lifeExptCalc(age) {
+  lifeExptCalc(age) {/*istanbul ignore else*/
     if (this.gender === "male") {
-      age = 79;
-    } return age; 
+      age =  79;
+    } else if (this.gender === "female") {
+      age = 81;
+    } else {
+      return 'choose a biological gender';
+    } return age;
   }
 }
