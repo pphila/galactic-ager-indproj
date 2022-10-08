@@ -16,7 +16,7 @@ describe('Jupiter', () => {
     jupiterInpt.jupiterCalc();
     let earthAge = new Earth(20, "female"); //fLE = 81
     let jupiterLE = earthAge.lifeExpectancy(jupiterInpt. jupiterQtn); //LE = life expectancy, jupiter qtn = 11.86
-    jupuiterInpt.differenceCalc(jupiterLE);
+    jupiterInpt.differenceCalc(jupiterLE);
     expect(jupiterInpt.ageRemainder).toEqual(5)
   });
 });
