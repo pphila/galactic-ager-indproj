@@ -7,8 +7,8 @@ import Mercury from './../src/js/mercury.js';
 describe('Mercury', () => {
   
   test('should correctly return an number for age in Mercury years', () => {
-    let mercuryInpt = new Mecury(20);
+    let mercuryInpt = new Mercury(20);
     mercuryInpt.mercuryAgeCalc();
-    expect(mercuryAgeCalc).toEqual(83);
-  })
-})
+    expect(mercuryInpt.mercuryAge).toEqual(83);
+  });
+});
