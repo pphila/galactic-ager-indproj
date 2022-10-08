@@ -10,6 +10,6 @@ export default class Mars {
   }
 
   differenceCalc(Earth) {
-    this.ageRemainder = Math.round(Math.abs(Earth - this.marsAge))
+    this.ageRemainder = Math.round(Math.abs(Earth - this.marsAge));
   }
 }

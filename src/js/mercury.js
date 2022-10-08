@@ -10,6 +10,6 @@ export default class Mercury {
   }
 
   differenceCalc(Earth) {
-    this.ageRemainder = Math.round(Math.abs(Earth - this.mercuryAge))
+    this.ageRemainder = Math.round(Math.abs(Earth - this.mercuryAge));
   }
 } 

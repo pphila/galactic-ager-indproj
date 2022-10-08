@@ -1,8 +1,8 @@
 export default class Jupiter {
   constructor(earthAge) {
-    this.earthAge = earthAge
+    this.earthAge = earthAge;
     this.jupiterAge = 0;
-    this.jupiterQtn = 11.86
+    this.jupiterQtn = 11.86;
   }
 
   jupiterCalc() {
@@ -10,6 +10,6 @@ export default class Jupiter {
   }
 
   differenceCalc(Earth) {
-    this.ageRemainder = Math.round(Math.abs(Earth - this.jupiterAge))
-  };
+    this.ageRemainder = Math.round(Math.abs(Earth - this.jupiterAge));
+  }
 }

@@ -16,6 +16,6 @@ export default class Earth {
   }
 
   lifeExpectancy(planetAge) {
-    return this.ageExpect / planetAge
+    return this.ageExpect / planetAge;
   }
 }
