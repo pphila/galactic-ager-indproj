@@ -11,4 +11,13 @@ describe('Mercury', () => {
     mercuryInpt.mercuryAgeCalc();
     expect(mercuryInpt.mercuryAge).toEqual(83);
   });
+
+  test('should return age expectancy and difference according to Mercury age', () =>  {
+    let mercuryInpt = new Mercury(20);
+    mercuryInpt.mercuryAgeCalc();
+    let earthAge = new Earth(20, "male");
+    let mercuryLE = earthAge.lifeExpectancy(mercuryInpt/0.24);
+    mercuryInpt.differenceCalc(mercuryLE);
+    expect(mercuryInpt.ageRemainder).toEqual(246)
+  })
 });
