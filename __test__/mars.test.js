@@ -8,6 +8,6 @@ describe('Mars', () => {
   test('should correctly return an number for age in Mars years', () => {
     let marsInpt = new Mars(20);
     marsInpt.marsCalc();
-    expect(marsInpt.marsAge).toEqual(83);
+    expect(marsInpt.marsAge).toEqual(11);
   });
 });
