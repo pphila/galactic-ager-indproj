@@ -1,29 +1,32 @@
-# (Application Name)
+# _Super Galactic Age calculator_
 
-#### (Brief Description of Application)
+#### _A web application that will determine a user's inputed age and return their age and life expectancy on other planets_
 
-#### By (Your Name Here)
+#### By Peter Philavanh
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* _HTML_
+* _CSS_
+* _JavaScript_
+* _Webpack_
+* _Jest_
+* _Babel_
 
 ## Description
+_This webapp was created to practice Test Driven Developement utilizing automated testing with Jest. The app will take a user's input for their age and simple gender demographic and returns their age in if they were on a different planet. It should also determine the user's life expectancy for each planet._
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _Clone this repository to your local machine's desktop_
+* _Use cmd GUI to navigate to the cloned repo_
+* _View all source code within directory_
+* _Open index.html in a browser window or view commit history from within the repo link__
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _No known issues at this time_
+* _Report any bugs to efl2ice89@gmail.com_
 
 ## License
+Copyright (c) October 2022 Peter Philavanh
