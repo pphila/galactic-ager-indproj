@@ -21,7 +21,7 @@ _This webapp was created to practice Test Driven Developement utilizing automate
 * _Clone this repository to your local machine's desktop_
 * _Use cmd GUI to navigate to the cloned repo_
 * _View all source code within directory_
-* _Open index.html in a browser window or view commit history from within the repo link__
+* _Open index.html in a browser window or view commit history from within the repo link_
 
 ## Known Bugs
 
