@@ -19,5 +19,14 @@ describe('Mercury', () => {
     let mercuryLE = earthAge.lifeExpectancy(mercuryInpt.mercuryQtn);
     mercuryInpt.differenceCalc(mercuryLE);
     expect(mercuryInpt.ageRemainder).toEqual(246)
-  })
+  });
+
+  test('should return positive number if a user enters an age beyond life expectancy', () => {
+    let mercuryInpt = new Mercury(95);
+    mercuryInpt.mercuryAgeCalc();
+    let earthAge = new Earth(95, "female");
+    let mercuryLE = earthAge.lifeExpectancy(mercuryInpt.mercuryQtn);
+    mercuryInpt.differenceCalc(mercuryLE);
+    expect(mercuryInpt.ageRemainder).toEqual(59)
+  });
 });

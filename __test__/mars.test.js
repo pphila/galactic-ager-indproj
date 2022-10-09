@@ -18,5 +18,14 @@ describe('Mars', () => {
     let marsLE = earthAge.lifeExpectancy(marsInpt.marsQtn); //LE = life expectancy, mars qtn = 1.88
     marsInpt.differenceCalc(marsLE);
     expect(marsInpt.ageRemainder).toEqual(32)
-  })
+  });
+
+  test('should return positive number if a user enters an age beyond life expectancy', () => {
+    let marsInpt = new Mars(110);
+    marsInpt.marsCalc();
+    let earthAge = new Earth(110, "female");
+    let marsLE = earthAge.lifeExpectancy(marsInpt. marsQtn);
+    marsInpt.differenceCalc(marsLE);
+    expect(marsInpt.ageRemainder).toEqual(16)
+  });
 });

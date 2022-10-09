@@ -18,5 +18,14 @@ describe('Venus', () => {
     let venusLE = earthAge.lifeExpectancy(venusInpt.venusQtn); //venus quotient = .62
     venusInpt.differenceCalc(venusLE);
     expect(venusInpt.ageRemainder).toEqual(95)
-  })
+  });
+
+  test('should return positive number if a user enters an age beyond life expectancy', () => {
+    let venusInpt = new Venus(95);
+    venusInpt.venusCalc();
+    let earthAge = new Earth(95, "male"); 
+    let venusLE = earthAge.lifeExpectancy(venusInpt. venusQtn);
+    venusInpt.differenceCalc(venusLE);
+    expect(venusInpt.ageRemainder).toEqual(26)
+  });
 });

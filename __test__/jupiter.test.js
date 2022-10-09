@@ -19,4 +19,13 @@ describe('Jupiter', () => {
     jupiterInpt.differenceCalc(jupiterLE);
     expect(jupiterInpt.ageRemainder).toEqual(5)
   });
+
+  test('should return positive number if a user enters an age beyond life expectancy', () => {
+    let jupiterInpt = new Jupiter(95);
+    jupiterInpt.jupiterCalc();
+    let earthAge = new Earth(95, "female");
+    let jupiterLE = earthAge.lifeExpectancy(jupiterInpt. jupiterQtn);
+    jupiterInpt.differenceCalc(jupiterLE);
+    expect(jupiterInpt.ageRemainder).toEqual(1)
+  });
 });
